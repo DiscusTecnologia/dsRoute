@@ -81,7 +81,9 @@ bower install dsroute --save
   
 ## License ##
 ---
+
 Copyright © 2017 [Discus Tecnologia][1]
+
 Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
   [1]: https//www.discustecnologia.com.br
