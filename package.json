@@ -1,0 +1,41 @@
+{
+  "name": "dsroute",
+  "version": "1.0.0",
+  "description": "Discus Route. Route system for SPA (Single Page Applications)",
+  "main": "dist/dsRoute.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiscusTecnologia/dsRoute.git"
+  },
+  "keywords": [
+    "route",
+    "system",
+    "spa",
+    "lazy",
+    "loading",
+    "routing"
+  ],
+  "author": "Rodrigo Ramos <rodrigoramos@discustecnologia.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiscusTecnologia/dsRoute/issues"
+  },
+  "homepage": "https://github.com/DiscusTecnologia/dsRoute",
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0",
+    "jquery": "^3.2.1",
+    "signals": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jsdoc": "^3.4.2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dsroute",
+  "authors": [
+    "Rodrigo Ramos <rodrigoramos@discustecnologia.com.br>"
+  ],
+  "description": "Discus Route. Route system for SPA (Single Page Applications)",
+  "main": "",
+  "keywords": [
+    "route",
+    "system",
+    "spa",
+    "lazy",
+    "loading",
+    "routing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DiscusTecnologia/dsRoute.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0",
+    "js-signals": "^1.0.0",
+    "jQuery": "^3.2.1"
+  }
+}
