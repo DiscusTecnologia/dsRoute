@@ -18,7 +18,7 @@ Use less data traffic and make your application faster
   *	[jQuery](https://jquery.com/)
 
 ## Example
----
+
 index.html
 ```html
 !DOCTYPE html>
@@ -80,7 +80,6 @@ bower install dsroute --save
 ```
   
 ## License ##
----
 
 Copyright © 2017 [Discus Tecnologia][1]
 
