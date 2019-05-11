@@ -52,15 +52,15 @@ barController = function(id, slug){
 
 dsRoute.setRoutes({
 	//index route
-	'' : {templateUrl : 'home.html', controller : 'fooController'},
+	'' : {templateUrl : 'home.html', controller : fooController},
 	//Route no cached template
-	'foo' : {templateUrl : 'foo.html', controller : 'fooController', nocache : true},
+	'foo' : {templateUrl : 'foo.html', controller : fooController, nocache : true},
 	//Route with parameter and optional parameter
-	'bar/{id}/:slug:' : {templateUrl : 'bar.html', controller : 'barController'},
+	'bar/{id}/:slug:' : {templateUrl : 'bar.html', controller : barController},
 	//Route called when get 404 code error. You can use others code errors.
-	'404' : {templateUrl : '404.html', controller : 'fooController'},
+	'404' : {templateUrl : '404.html', controller : fooController},
 	//Called when no route matched
-	'default' : {templateUrl : 'default.html', controller : 'fooController'}
+	'default' : {templateUrl : 'default.html', controller : fooController}
 });
 ```
 The template by default are showed on element #content. If you need to change the default element use:

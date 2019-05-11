@@ -37,7 +37,7 @@ dsRoute = new function(){
 
 		//listener for change routes
 		crossroads.routed.add(function(request, data, first) {
-			controller = eval(routes[data.route._pattern].controller);
+			controller = routes[data.route._pattern].controller;
 			url = routes[data.route._pattern].templateUrl;
 			nocache = routes[data.route._pattern].nocache != undefined ? routes[data.route._pattern].nocache : false;
 
