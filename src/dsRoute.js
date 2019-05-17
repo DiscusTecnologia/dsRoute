@@ -51,6 +51,8 @@ dsRoute = new function(){
 						templatesUrlLoaded.push(data.route._pattern);
 						templatesLoaded[data.route._pattern] = remoteData;
 						$(elRouteView).html(remoteData);
+						//pass parameters
+						controller.apply(this, data.params);
 					},
 					error: function(xhr, textStatus) {
 						if(routes[xhr.status] != undefined) { //if exist route error code
@@ -72,8 +74,7 @@ dsRoute = new function(){
 				$(elRouteView).html(templatesLoaded[data.route._pattern]);
 			}
 
-			//pass parameters
-			controller.apply(this, data.params);
+			
 		});
 
 		//get routes not defined
