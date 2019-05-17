@@ -1,6 +1,6 @@
 {
   "name": "dsroute",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Discus Route. Route system for SPA (Single Page Applications)",
   "main": "dist/dsRoute.js",
   "scripts": {
